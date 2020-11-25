@@ -1,0 +1,120 @@
+.main-background
+{
+	background-color: black;
+}
+
+.block
+{
+	text-align: center;
+	background-color: green;
+	margin: 20px;
+}
+
+.block:hover
+{
+	background-color: #ADD8E6;
+}
+
+.im
+{
+ 	padding: 20px;
+}
+
+.button {
+  position: relative;
+  left: 25px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.button:after {
+  font-family: "FontAwesome";
+  position: absolute;
+  left: -25px;
+}
+.buttonSearch:after {
+  content: "\f002";
+}
+.buttonComment:after {
+  content: "\f27a";
+}
+.buttonLike:after {
+  content: "\f004";
+}
+.buttonAdd:after {
+  content: "\f055";
+}
+.buttonRemove:after {
+  content: "\f056";
+}
+.buttonDelete:after {
+  content: "\f2ed";
+}
+
+blockquote {
+  background: #fff4df;
+  border-left: 2px solid #0083ca;
+  padding: 1em;
+  width: 500px;
+  font-size: 30px;
+}
+
+blockquote::before,
+blockquote::after {
+  content: "«";
+  font-size: 30px;
+  color: #ff001e;
+  line-height: 0;
+}
+
+blockquote::after {
+  content: "»";
+}
+
+
+
+.whiteBcgr
+{
+	background-color: white;
+	padding: 50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: 40px;
+}
+
+.table {
+  background-color: rgb(167, 167, 167);
+  padding: 50px;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+.mainCell {
+  border: 1px solid #fff;
+  text-align: left;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #636363;
+  border-bottom: 1px solid black;
+}
+.leftCell {
+  background-color: #d6d5d5;
+  border: 1px solid #fff;
+  text-align: left;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #6e6e6e;
+  border-right: 1px solid black;
+}
+.rightCell {
+  background-color: #f3f1f1;
+  border: 1px solid #fff;
+  text-align: left;
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #696969;
+  text-align: right;
+}
